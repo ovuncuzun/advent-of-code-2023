@@ -1,3 +1,7 @@
+/*
+https://adventofcode.com/2023/day/5
+*/
+
 const fs = require("fs");
 
 function readInput(filePath) {
@@ -76,9 +80,8 @@ function processIntervals(seeds, maps) {
         for (const [lo] of curIntervals) {
             ans = Math.min(ans, lo);
         }
-
-        console.log(ans);
     }
+    console.log(ans);
 }
 
 const filePath = "input.txt";
