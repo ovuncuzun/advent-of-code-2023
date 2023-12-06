@@ -1,3 +1,6 @@
+/*
+https://adventofcode.com/2023/day/6
+*/
 
 const fs = require("fs");
 

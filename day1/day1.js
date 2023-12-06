@@ -1,3 +1,8 @@
+/*
+https://adventofcode.com/2023/day/1
+*/
+
+
 const fs = require('fs');
 const fileName = "input.txt";
 

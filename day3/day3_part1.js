@@ -1,3 +1,8 @@
+/*
+https://adventofcode.com/2023/day/3
+*/
+
+
 const fs = require("fs");
 
 const hasSymbol = (str) => {
