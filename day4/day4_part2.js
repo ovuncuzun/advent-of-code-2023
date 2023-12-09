@@ -1,4 +1,5 @@
 /*
+--- Day 4: Scratchcards ---
 https://adventofcode.com/2023/day/4
 */
 
@@ -39,7 +40,7 @@ async function main() {
         const filePath = "input.txt";
         const input = await readInputFile(filePath);
         const result = calculateCardCount(input);
-        console.log(result);
+        console.log(result); // 5747443
     } catch (err) {
         console.error(err.message);
     }

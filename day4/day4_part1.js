@@ -1,4 +1,5 @@
 /*
+--- Day 4: Scratchcards ---
 https://adventofcode.com/2023/day/4
 */
 
@@ -19,5 +20,5 @@ fs.readFile("input.txt", "utf-8", (err, data) => {
         res += value;
     }
 
-    console.log(res);
+    console.log(res); // 22674
 });

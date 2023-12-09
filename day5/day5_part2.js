@@ -1,4 +1,5 @@
 /*
+--- Day 5: If You Give A Seed A Fertilizer ---
 https://adventofcode.com/2023/day/5
 */
 
@@ -81,7 +82,7 @@ function processIntervals(seeds, maps) {
             ans = Math.min(ans, lo);
         }
     }
-    console.log(ans);
+    console.log(ans); // 11554135
 }
 
 const filePath = "input.txt";
